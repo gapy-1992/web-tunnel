@@ -15,9 +15,9 @@ def setup() {
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
 
-'step 2: At Page_home click on hyperlink_172_category_uncategorized --> navigate to Page_category_uncategorized_'
+'step 2: At Page_home click on hyperlink_172_positive_growth --> navigate to Page_positive-growth_'
 
-testObj = findTestObject('Object Repository/Page_home/hyperlink_172_category_uncategorized')
+testObj = findTestObject('Object Repository/Page_home/hyperlink_172_positive_growth_1')
 
 WebUI.delay(3)
 
@@ -29,7 +29,7 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 3: Add visual checkpoint at Page_category_uncategorized_'
+'step 3: Add visual checkpoint at Page_positive-growth_'
 
 WebUI.takeFullPageScreenshotAsCheckpoint('TestCase-00002_visual_checkpoint')
 

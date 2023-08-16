@@ -1,7 +1,0 @@
-{
-    "steps": [
-        "step 1: Navigate to Page_home",
-        "step 2: At Page_home click on hyperlink_172_category_my_pham --> navigate to Page_category_my-pham_",
-        "step 3: Add visual checkpoint at Page_category_my-pham_"
-    ]
-}

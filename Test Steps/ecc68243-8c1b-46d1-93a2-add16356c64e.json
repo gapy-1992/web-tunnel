@@ -1,0 +1,7 @@
+{
+    "steps": [
+        "step 1: Navigate to Page_home",
+        "step 2: At Page_home click on hyperlink_172_positive_growth --> navigate to Page_positive-growth_",
+        "step 3: Add visual checkpoint at Page_positive-growth_"
+    ]
+}

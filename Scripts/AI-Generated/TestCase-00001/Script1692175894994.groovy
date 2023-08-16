@@ -15,9 +15,9 @@ def setup() {
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
 
-'step 2: At Page_home click on hyperlink_172_trien_khai_du_an_dai_hoc_khong_rac_t --> navigate to Page_trien-khai-du-an-dai-hoc-khong-rac-thai-dau-tien_'
+'step 2: At Page_home click on hyperlink_172_category_social --> navigate to Page_category_social_'
 
-testObj = findTestObject('Object Repository/Page_home/hyperlink_172_trien_khai_du_an_dai_hoc_khong_rac_t')
+testObj = findTestObject('Object Repository/Page_home/hyperlink_172_category_social')
 
 WebUI.delay(3)
 
@@ -29,9 +29,9 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 3: Add visual checkpoint at Page_trien-khai-du-an-dai-hoc-khong-rac-thai-dau-tien_'
+'step 3: Add visual checkpoint at Page_category_social_'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TestCase-00000_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TestCase-00001_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
